@@ -133,7 +133,7 @@ MonoBehaviour:
   attackBooleanName: attacking
   hitWithLineOfSight:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 320
   stopDistance: 0
   stopBehavior: 0
 --- !u!114 &4292625075940306288
@@ -178,6 +178,12 @@ MonoBehaviour:
   deathEffect: {fileID: 3092383889052610889, guid: 5b6612dacf4f02b46b2de4d047bd2075, type: 3}
   hitEffect: {fileID: 1986892457192645033, guid: b4b5f92d032abe64b84d7639d84610e8, type: 3}
   ragdollHandler: {fileID: 3984427603643302406}
+  eventsOnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  eventsOnRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3984427603643302406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -674,6 +680,10 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
@@ -686,6 +696,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -695,14 +709,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8106129502878748084, guid: f266c5c6b10c2754cb8d6c3512f3aa7c, type: 3}
